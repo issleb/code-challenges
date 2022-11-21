@@ -1,0 +1,15 @@
+{
+  "name": "sorter",
+  "version": "0.0.1",
+  "description": "Sort all the things. But mostly colors.",
+  "main": "sort.js",
+  "scripts": {
+    "start": "node app",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
