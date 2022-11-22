@@ -1,6 +1,4 @@
-# code-challenges
-
-Sorts a list of string according to the order in a second list. Exclude items not present in both lists.
+Sorts a list of strings according to the order in a second list. Exclude items not present in both lists.
 
 ## To run
 

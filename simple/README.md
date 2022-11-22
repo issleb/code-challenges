@@ -1,2 +1,10 @@
 # code-challenges
-Exercises I've done on my own or for job interviews in the past.
+Some of this is practice, some from actual interviews. All if it was written in good faith with minimal checking against SO.
+
+## Running
+
+- node reverseStrings
+- node fizzBuzz
+- node wordFun
+- node fibonacci
+- node primes
