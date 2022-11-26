@@ -1,6 +1,6 @@
 
 const checkPrime = (n) => {
-    for (i = 2; i <= n/2; i++) {
+    for (let i = 2; i <= n/2; i++) {
         if (i !== n && !(n % i)) return false;
     }
 
@@ -8,7 +8,7 @@ const checkPrime = (n) => {
 }
 
 const getPrimes = (n) => {
-    let primes = [];
+    const primes = [];
 
     for (let i = 1; i <= n; i++) {
         const isPrime = checkPrime(i);
