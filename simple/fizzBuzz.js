@@ -1,3 +1,7 @@
+ // Fizz Buzz!
+
+// O(n) time complexity.
+// O(n) space complexity.
  const fizzBuzz = function(n) {
     const output = [];
     for (i = 1; i <= n; i++) {

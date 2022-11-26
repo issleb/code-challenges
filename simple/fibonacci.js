@@ -1,12 +1,7 @@
+// Get the first (n) numbers in the Fibonacci sequence.
 
-// This is bad, it's  O(2^n). Try it with a value of 500 and watch your computer explode. :D
-const getNumber = (num) => {
-    const fib = num < 2 ? num : getNumber(num - 1) + getNumber(num - 2);
-
-    return fib;
-}
-
-
+// O(n) time complexity.
+// O(n) space complexity.
 const getSequence = (count) => {
     const numbers = [];
     
@@ -21,5 +16,13 @@ const getSequence = (count) => {
     return numbers;
 };
 
-console.log(getSequence(10));
-console.log(getNumber(9));
+// This is bad, it's  O(2^n). Try it with a value over 50 and watch your computer explode. :D
+const getNumber = (num) => {
+    const fib = num < 2 ? num : getNumber(num - 1) + getNumber(num - 2);
+
+    return fib;
+}
+
+
+console.log(getSequence(20));
+console.log(getNumber(10));
